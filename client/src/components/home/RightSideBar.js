@@ -47,7 +47,7 @@ const RightSideBar = () => {
                 </small>
 
                 <small>
-                   &copy; 2021 V-NETWORK FROM DEV A.T VIET NAM
+                   &copy; 2021 BLUER FROM DEV A.T VIET NAM
                 </small>
             </div>
 

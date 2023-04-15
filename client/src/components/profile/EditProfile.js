@@ -28,7 +28,7 @@ const EditProfile = ({setOnEdit}) => {
         if(err) return dispatch({
             type: GLOBALTYPES.ALERT, payload: {error: err}
         })
-
+        
         setAvatar(file)
     }
 
@@ -40,6 +40,7 @@ const EditProfile = ({setOnEdit}) => {
     const handleSubmit = e => {
         e.preventDefault()
         dispatch(updateProfileUser({userData, avatar, auth}))
+        setOnEdit(false)
     }
 
     return (
