@@ -9,7 +9,7 @@ import NotifyModal from '../NotifyModal'
 const Menu = () => {
     const navLinks = [
         { label: 'Home', icon: 'home', path: '/'},
-        { label: 'Message', icon: 'near_me', path: '/message'},
+        { label: 'Message', icon: 'chat', path: '/message'},
         { label: 'Discover', icon: 'explore', path: '/discover'}
     ]
 
@@ -39,8 +39,8 @@ const Menu = () => {
                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
                         <span className="material-icons" 
-                        style={{color: notify.data.length > 0 ? 'crimson' : ''}}>
-                            favorite
+                        style={{color: notify.data.length > 0 ? '' : ''}}>
+                            notifications
                         </span>
 
                         <span className="notify_length">{notify.data.length}</span>
