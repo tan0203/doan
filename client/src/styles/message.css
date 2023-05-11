@@ -16,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     background: #f8f8f8;
+
 }
 .message_header input{
     flex: 1;
