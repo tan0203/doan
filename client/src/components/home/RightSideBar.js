@@ -5,6 +5,8 @@ import UserCard from "../UserCard";
 import FollowBtn from "../FollowBtn";
 import LoadIcon from "../../images/loading.gif";
 import { getSuggestions } from "../../redux/actions/suggestionsAction";
+import Sponsores from "./Sponsored";
+import Sponsored from "./Sponsored";
 
 const RightSideBar = () => {
   const { auth, suggestions } = useSelector((state) => state);
@@ -36,12 +38,14 @@ const RightSideBar = () => {
           ))}
         </div>
       )}
-      <div className="advertisement">
-        <img
-          src="https://down-vn.img.susercontent.com/file/sg-11134201-22100-e3jofkj6csivb9"
-          alt="product"
-        />
-        <p>Tai Nghe Bluetooth M10 Pro Tai Nghe Không M10 Pro</p>
+      <div className="Sponsored text-danger">
+        <h1>Sponsored</h1>
+        <Sponsored></Sponsored>
+        <div className="Sponsoredbot">
+          <p className="advertisementt ">LAMEILA - Official Store</p>
+          <p className="advertisementt ">lameila.vn</p>
+        </div>
+      
       </div>
       <div style={{ opacity: 0.5 }} className="my-2">
         <a

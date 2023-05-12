@@ -89,23 +89,35 @@
 }
 
 .advertisement{
-  width: 333px;
-  height: 222px;
-  margin-left: 9px;
-  border: 4px solid aquamarine;
+  width: 300px;
+  height: 150px;
   border-radius: 15px;
   overflow: hidden;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .advertisement img{
   width: 100%;
-  height: 85%;
+  height: 100%;
 }
 
-.advertisement p {
-  width: 100%;
-  height: 15%;
-  font-size: 13px;
-  margin-left: 5px;
+.Sponsored h1 {
+  font-size: larger;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
+.advertisementt {
+  color: black;
+  font-size: medium;
+  font-weight: normal;
+
+}
+
+.Sponsoredbot {
+  display: flex;
+  justify-content: space-between;
+
+}
