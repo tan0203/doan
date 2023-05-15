@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DataProvider from './redux/store'
 
+const port = process.env.PORT || 4001
+
 ReactDOM.render(
   <React.StrictMode>
     <DataProvider>
